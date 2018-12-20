@@ -17,14 +17,14 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('             mJordan Levine Brady /'),
+  name: chalk.white('             mJordan Levine /'),
   handle: chalk.black.bgBlueBright(' mjordancodes '),
   work: chalk.white('Lead Instructor at Alchemy Code Lab'),
   twitter: chalk.white('https://twitter.com/mjordancodes'),
   github: chalk.white('https://github.com/mjordancodes'),
   linkedin: chalk.white('https://linkedin.com/in/mjordancodes'),
   web: chalk.white('https://mjordan.codes'),
-  npx: chalk.white('npx mjordancard'),
+  npx: chalk.white('npx mjordancodes'),
   labelWork: chalk.rgb(244, 65, 65).bold('      Work:'),
   labelTwitter: chalk.rgb(255, 136, 0).bold('   Twitter:'),
   labelGitHub: chalk.rgb(255, 221, 0).bold('    GitHub:'),
