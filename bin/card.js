@@ -7,27 +7,30 @@ const boxen = require('boxen')
 
 // Define options for Boxen
 const options = {
-  padding: 1,
-  margin: 1,
-  borderStyle: 'round'
+  padding: 5,
+  margin: 5,
+  borderStyle: 'double',
+  float: 'center',
+  borderColor: 'black',
+  backgroundColor: 'black'
 }
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Tierney Cyren /'),
-  handle: chalk.cyan('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  twitter: chalk.cyan('https://twitter.com/bitandbang'),
-  github: chalk.cyan('https://github.com/bnb'),
-  linkedin: chalk.cyan('https://linkedin.com/in/bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.white('npx bitandbang'),
-  labelWork: chalk.white.bold('      Work:'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
-  labelGitHub: chalk.white.bold('    GitHub:'),
-  labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  labelWeb: chalk.white.bold('       Web:'),
-  labelCard: chalk.white.bold('      Card:')
+  name: chalk.white('             mJordan Levine Brady /'),
+  handle: chalk.black.bgBlueBright(' mjordancodes '),
+  work: chalk.white('Lead Instructor at Alchemy Code Lab'),
+  twitter: chalk.white('https://twitter.com/mjordancodes'),
+  github: chalk.white('https://github.com/mjordancodes'),
+  linkedin: chalk.white('https://linkedin.com/in/mjordancodes'),
+  web: chalk.white('https://mjordan.codes'),
+  npx: chalk.white('npx mjordancard'),
+  labelWork: chalk.rgb(244, 65, 65).bold('      Work:'),
+  labelTwitter: chalk.rgb(255, 136, 0).bold('   Twitter:'),
+  labelGitHub: chalk.rgb(255, 221, 0).bold('    GitHub:'),
+  labelLinkedIn: chalk.rgb(191, 255, 0).bold('  LinkedIn:'),
+  labelWeb: chalk.rgb(0, 237, 255).bold('       Web:'),
+  labelCard: chalk.rgb(66, 134, 244).bold('      Card:')
 }
 
 // Actual strings we're going to output

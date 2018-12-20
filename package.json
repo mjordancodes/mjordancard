@@ -1,24 +1,26 @@
 {
-  "name": "bitandbang",
+  "name": "mjordancoard",
   "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for mJordan (@mjordancodes) based on the original project by Tierney Cyren (@bitandbang)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "mjordancard": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/mjordancodes/mjordancard.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "mJordan <hi@mjordan.codes> (http://mjordan.codes)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "gradient-string": "^1.2.0",
+    "widest-line": "^2.0.1"
   },
   "devDependencies": {
     "standard": "^12.0.1"
