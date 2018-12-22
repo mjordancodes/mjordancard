@@ -19,7 +19,7 @@ const options = {
 const data = {
   name: chalk.white('             mJordan Levine /'),
   handle: chalk.black.bgBlueBright(' mjordancodes '),
-  work: chalk.white('Lead Instructor at Alchemy Code Lab'),
+  work: chalk.white('Front End Developer'),
   twitter: chalk.white('https://twitter.com/mjordancodes'),
   github: chalk.white('https://github.com/mjordancodes'),
   linkedin: chalk.white('https://linkedin.com/in/mjordancodes'),
